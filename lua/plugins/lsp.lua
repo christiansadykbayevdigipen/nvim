@@ -28,7 +28,7 @@ return {
 
       -- Installs these via Mason and auto-enables them
       require("mason-lspconfig").setup({
-        ensure_installed = { "lua_ls", "pyright", "ts_ls", "bashls", "jsonls", "clangd" },
+        ensure_installed = { "lua_ls", "pyright", "ts_ls", "bashls", "jsonls", "clangd", "neocmake", "asm_lsp" },
       })
 
       vim.api.nvim_create_autocmd("LspAttach", {
